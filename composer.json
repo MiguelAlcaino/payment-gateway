@@ -1,0 +1,16 @@
+{
+    "name": "miguelalcaino/payment-gateway",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Miguel Alcaino",
+            "email": "miguel.alcaino@ogb.cl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MiguelAlcaino\\PaymentGateway\\": "src"
+        }
+    }
+}
