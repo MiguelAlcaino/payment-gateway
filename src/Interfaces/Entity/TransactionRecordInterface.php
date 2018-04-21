@@ -50,4 +50,9 @@ interface TransactionRecordInterface
      * @return TransactionRecordInterface
      */
     public function setAuthorizationCode($authorizationCode);
+
+    /**
+     * @return CustomerInterface
+     */
+    public function getCustomer();
 }
