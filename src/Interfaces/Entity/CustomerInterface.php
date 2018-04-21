@@ -12,6 +12,5 @@ namespace MiguelAlcaino\PaymentGateway\Interfaces\Entity;
 interface CustomerInterface
 {
     public function getName();
-    public function getPrice();
 
 }

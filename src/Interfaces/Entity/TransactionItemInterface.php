@@ -12,4 +12,5 @@ namespace MiguelAlcaino\PaymentGateway\Interfaces\Entity;
 interface TransactionItemInterface
 {
     public function getName();
+    public function getPrice();
 }
