@@ -99,4 +99,13 @@ interface TransactionRecordInterface
      * @return TransactionItemInterface
      */
     public function removeTransactionItem(TransactionItemInterface $transactionItem);
+
+    /**
+     * Set installments
+     *
+     * @param integer $installments
+     *
+     * @return TransactionRecordInterface
+     */
+    public function setInstallments($installments);
 }
